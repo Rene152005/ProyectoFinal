@@ -1,0 +1,15 @@
+<resources>
+
+    /* En esta Seccion de Strings es donde detallo todos los textos que usare en el programa*/
+
+    <string name="app_name">Proyecto</string>
+    <string name = "Desc">Programa RENE DE LEON *** PERMITE CALCULAR LA CALIFICACION DEL SEMESTRE,
+        PERO ANTES DEBE INTRODUCIR LAS 3 NOTAS DE LOS PARCIALES ***</string>
+    <string name = "cal1">Calificación 1:</string>
+    <string name = "cal2">Calificación 2:</string>
+    <string name = "cal3">Calificación 3:</string>
+    <string name = "resul">Resultado</string>
+    <string name = "btn">Calcular Promedio</string>
+
+
+</resources>

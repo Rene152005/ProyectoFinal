@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+
+    /* EN ESTA SECCION LO QUE HICE FUE DISEÑAR TODO EL FORMULARIO DE MANERA MANUAL
+    ADEMAS LO CREE CON LA OPCION DE RELATIVELAYOT PARA QUE SE ADPATE A LA PANTALLA DE CADA CELULAR
+    PUDE CREAR LOS TEXTVIEW LOS CUALES CONTENDRAN LA INFORMACION A VISUALIZAR Y CREE TAMBIEN LOS EDITVIEW LOS CUALES
+    CONTENDRAN LA INFORMACION QUE SERA CAPTURADA PARA LUEGO PODER PROCESAR, ADEMAS DE DARLES SUS RESPECTIVAS
+    ALINEACIONES Y CREAR EL BOTON QUE ME PERMITIRA HACER EL CALCULO AL FIN DE INTRODUCIR TODAS LAS NOTAS.*/
+
+    <TextView
+        android:id="@+id/tvDes"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="false"
+        android:text="@string/Desc"
+        android:textAlignment="center" />
+
+    <TextView android:id="@+id/tvCal1"
+        android:text="@string/cal1"
+        android:layout_below="@id/tvDes"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <EditText android:id="@+id/etCal1"
+        android:layout_below="@id/tvDes"
+        android:layout_toRightOf="@id/tvCal1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <TextView android:id="@+id/tvCal2"
+        android:text="@string/cal2"
+        android:layout_below="@id/etCal1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <EditText android:id="@+id/etCal2"
+        android:layout_below="@id/etCal1"
+        android:layout_toRightOf="@id/tvCal2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <TextView android:id="@+id/tvCal3"
+        android:text="@string/cal3"
+        android:layout_below="@id/etCal2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <EditText android:id="@+id/etCal3"
+        android:layout_below="@id/etCal2"
+        android:layout_toRightOf="@id/tvCal3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/btnCal"
+        android:text="@string/btn"
+        android:layout_below="@id/etCal3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+         />
+
+    <TextView
+        android:id="@+id/tvResul"
+        android:text="@string/resul"
+        android:layout_below="@id/btnCal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+</RelativeLayout>
